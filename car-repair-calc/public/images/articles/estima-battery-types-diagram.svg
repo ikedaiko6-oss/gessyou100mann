@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="300" fill="#f0f9ff"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">エスティマハイブリッドの「2種類のバッテリー」</text>
+
+  <rect x="70" y="70" width="290" height="170" rx="20" fill="#bae6fd" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="215" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c4a6e">補機バッテリー(12V)</text>
+  <text x="215" y="130" text-anchor="middle" font-size="11" fill="#075985">普通車と同じ鉛バッテリー</text>
+  <text x="215" y="150" text-anchor="middle" font-size="11" fill="#075985">電圧が下がったら</text>
+  <text x="215" y="168" text-anchor="middle" font-size="11" font-weight="bold" fill="#075985">ジャンプスタートOK</text>
+  <text x="215" y="195" text-anchor="middle" font-size="11" fill="#075985">交換目安: 4〜5年</text>
+  <text x="215" y="213" text-anchor="middle" font-size="11" fill="#075985">費用: 2万〜4.5万円程度</text>
+
+  <rect x="440" y="70" width="290" height="170" rx="20" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+  <text x="585" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#7f1d1d">駆動用バッテリー(202V)</text>
+  <text x="585" y="130" text-anchor="middle" font-size="11" fill="#7f1d1d">高電圧バッテリーパック</text>
+  <text x="585" y="150" text-anchor="middle" font-size="11" fill="#7f1d1d">電圧が上がったら</text>
+  <text x="585" y="168" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">ジャンプスタート絶対NG</text>
+  <text x="585" y="195" text-anchor="middle" font-size="11" fill="#7f1d1d">(感電の危険・ロードサービスへ)</text>
+  <text x="585" y="213" text-anchor="middle" font-size="11" fill="#7f1d1d">交換目安: 20〜28万km</text>
+
+  <text x="400" y="270" text-anchor="middle" font-size="13" fill="#475569">どちらが上がったかで対応が全く異なるため、まず警告灯とメーター表示で見分けることが重要</text>
+</svg>

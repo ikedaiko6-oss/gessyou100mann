@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="260" fill="#f0f9ff"/>
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">実体験: 症状が進行していく流れ(エスティマハイブリッド)</text>
+
+  <rect x="20" y="70" width="160" height="100" rx="16" fill="#bae6fd" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="100" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">①インバーターの</text>
+  <text x="100" y="116" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">100Vボタンが</text>
+  <text x="100" y="132" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">機能しなくなる</text>
+  <text x="100" y="154" text-anchor="middle" font-size="10" fill="#075985">(AC100V電源系統)</text>
+
+  <path d="M185 120 L235 120" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="240" y="70" width="160" height="100" rx="16" fill="#5eead4" stroke="#14b8a6" stroke-width="2"/>
+  <text x="320" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">②バッテリー残量</text>
+  <text x="320" y="116" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">表示が1目盛まで</text>
+  <text x="320" y="132" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">下がる</text>
+  <text x="320" y="154" text-anchor="middle" font-size="10" fill="#065f46">(ハイブリッド残量計)</text>
+
+  <path d="M405 120 L455 120" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="460" y="70" width="160" height="100" rx="16" fill="#fed7aa" stroke="#fb923c" stroke-width="2"/>
+  <text x="540" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#9a3412">③エンジンが</text>
+  <text x="540" y="116" text-anchor="middle" font-size="12" font-weight="bold" fill="#9a3412">かかりっぱなしの</text>
+  <text x="540" y="132" text-anchor="middle" font-size="12" font-weight="bold" fill="#9a3412">状態になる</text>
+  <text x="540" y="154" text-anchor="middle" font-size="10" fill="#9a3412">(EV/アイドル停止不可)</text>
+
+  <path d="M625 120 L675 120" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="680" y="70" width="105" height="100" rx="16" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+  <text x="732" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">④VSCシステム</text>
+  <text x="732" y="116" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">チェック警告</text>
+  <text x="732" y="132" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">が出始める</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="210" text-anchor="middle" font-size="13" fill="#475569">①の不具合が日常的に起こるようになると、最終的に④の警告が表示されるようになる、という進行パターン</text>
+  <text x="400" y="232" text-anchor="middle" font-size="11" fill="#64748b">※34万km自己メンテナンスしてきたオーナー自身の実体験に基づく</text>
+</svg>

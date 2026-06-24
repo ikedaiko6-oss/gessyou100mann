@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="280" fill="#f0fdfa"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">警告灯が点いたときの判断フロー</text>
+
+  <rect x="30" y="65" width="170" height="90" rx="16" fill="#bae6fd" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="115" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">①警告灯点灯</text>
+  <text x="115" y="113" text-anchor="middle" font-size="10" fill="#075985">燃費悪化・EV距離</text>
+  <text x="115" y="128" text-anchor="middle" font-size="10" fill="#075985">短縮も前兆</text>
+
+  <path d="M205 110 L250 110" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#a1)"/>
+
+  <rect x="255" y="65" width="170" height="90" rx="16" fill="#5eead4" stroke="#14b8a6" stroke-width="2"/>
+  <text x="340" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">②OBD2で</text>
+  <text x="340" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">自己診断</text>
+  <text x="340" y="126" text-anchor="middle" font-size="10" fill="#065f46">ΔSOC・セル電圧確認</text>
+
+  <path d="M430 110 L475 110" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#a1)"/>
+
+  <rect x="480" y="65" width="170" height="90" rx="16" fill="#fed7aa" stroke="#fb923c" stroke-width="2"/>
+  <text x="565" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#9a3412">③整備工場で</text>
+  <text x="565" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#9a3412">精密診断・見積もり</text>
+  <text x="565" y="126" text-anchor="middle" font-size="10" fill="#9a3412">原因部位を特定</text>
+
+  <line x1="115" y1="155" x2="115" y2="190" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="340" y1="155" x2="340" y2="190" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="565" y1="155" x2="565" y2="190" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <rect x="255" y="195" width="290" height="70" rx="16" fill="#ffffff" stroke="#a5f3fc" stroke-width="2"/>
+  <text x="400" y="222" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">④見積もり額と走行距離を</text>
+  <text x="400" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">診断ツールに入力して</text>
+  <text x="400" y="255" text-anchor="middle" font-size="11" fill="#0369a1">修理 or 買い替えを判断</text>
+
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

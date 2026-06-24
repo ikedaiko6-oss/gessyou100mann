@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="360" fill="#f0f9ff"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">自己診断(OBD2)のセットアップイメージ</text>
+
+  <!-- car silhouette simplified -->
+  <rect x="40" y="120" width="280" height="120" rx="28" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+  <text x="180" y="102" text-anchor="middle" font-size="13" fill="#0369a1">運転席足元 or ボンネット内</text>
+  <rect x="150" y="190" width="60" height="36" rx="10" fill="#ffffff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="180" y="211" text-anchor="middle" font-size="10" font-weight="bold" fill="#0c4a6e">OBD2</text>
+  <text x="180" y="221" text-anchor="middle" font-size="9" fill="#0c4a6e">ポート</text>
+
+  <!-- adapter -->
+  <rect x="250" y="196" width="40" height="24" rx="8" fill="#fed7aa" stroke="#fb923c" stroke-width="2"/>
+  <text x="270" y="234" text-anchor="middle" font-size="10" fill="#9a3412">①アダプター</text>
+  <text x="270" y="246" text-anchor="middle" font-size="9" fill="#9a3412">(3,000円台〜)</text>
+  <line x1="250" y1="208" x2="210" y2="208" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- bluetooth wave -->
+  <path d="M310 198 Q332 178 310 158 Q332 178 310 198" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="322" y="143" text-anchor="middle" font-size="10" fill="#0369a1">②Bluetooth</text>
+  <text x="322" y="155" text-anchor="middle" font-size="9" fill="#0369a1">ペアリング</text>
+
+  <!-- phone -->
+  <rect x="450" y="100" width="112" height="202" rx="22" fill="#ffffff" stroke="#7dd3fc" stroke-width="3"/>
+  <rect x="463" y="122" width="86" height="148" rx="10" fill="#f0fdfa" stroke="#a5f3fc"/>
+  <text x="506" y="142" text-anchor="middle" font-size="10" font-weight="bold" fill="#0c4a6e">Dr.Prius/Hybrid</text>
+  <text x="506" y="157" text-anchor="middle" font-size="9" fill="#475569">セル電圧モニター</text>
+  <rect x="471" y="167" width="20" height="40" rx="6" fill="#99f6e4"/>
+  <rect x="495" y="167" width="20" height="40" rx="6" fill="#99f6e4"/>
+  <rect x="519" y="167" width="20" height="40" rx="6" fill="#fed7aa"/>
+  <text x="506" y="227" text-anchor="middle" font-size="9" fill="#475569">ΔSOC: 0</text>
+  <text x="506" y="242" text-anchor="middle" font-size="9" fill="#9a3412">3番セルが低い</text>
+  <text x="506" y="290" text-anchor="middle" font-size="10" fill="#475569">③アプリで確認</text>
+
+  <line x1="335" y1="200" x2="450" y2="200" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <text x="400" y="335" text-anchor="middle" font-size="12" fill="#475569">①アダプターを挿す → ②スマホとBluetooth接続(初期コード1234が多い) → ③アプリでセル電圧/ΔSOCを確認</text>
+</svg>

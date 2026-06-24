@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="300" fill="#f0f9ff"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">プリウスの「2種類のバッテリー」の違い</text>
+
+  <rect x="70" y="70" width="290" height="180" rx="20" fill="#bae6fd" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="215" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c4a6e">補機バッテリー(12V)</text>
+  <text x="215" y="130" text-anchor="middle" font-size="11" fill="#075985">トランク内に搭載</text>
+  <text x="215" y="150" text-anchor="middle" font-size="11" fill="#075985">寿命目安: 約5年</text>
+  <text x="215" y="170" text-anchor="middle" font-size="11" fill="#075985">短距離街乗りの繰り返しや</text>
+  <text x="215" y="188" text-anchor="middle" font-size="11" fill="#075985">3〜4週間の放置で上がりやすい</text>
+  <text x="215" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#075985">→普通のジャンプスタートでOK</text>
+
+  <rect x="440" y="70" width="290" height="180" rx="20" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+  <text x="585" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#7f1d1d">駆動用バッテリー(202V)</text>
+  <text x="585" y="130" text-anchor="middle" font-size="11" fill="#7f1d1d">後部座席と荷室の間に搭載</text>
+  <text x="585" y="150" text-anchor="middle" font-size="11" fill="#7f1d1d">寿命目安: 14万〜17万km</text>
+  <text x="585" y="170" text-anchor="middle" font-size="11" fill="#7f1d1d">劣化すると燃費悪化・</text>
+  <text x="585" y="188" text-anchor="middle" font-size="11" fill="#7f1d1d">P0A80警告灯につながる</text>
+  <text x="585" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">→ジャンプスタート絶対NG(感電の危険)</text>
+
+  <text x="400" y="275" text-anchor="middle" font-size="13" fill="#475569">「バッテリーが上がった」と言っても、どちらを指すかで対応も危険度も全く異なる</text>
+</svg>

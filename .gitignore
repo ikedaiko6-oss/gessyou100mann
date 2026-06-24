@@ -1,0 +1,39 @@
+# dependencies
+car-repair-calc/node_modules
+/car-repair-calc/.pnp
+car-repair-calc/.pnp.*
+car-repair-calc/.yarn/*
+!car-repair-calc/.yarn/patches
+!car-repair-calc/.yarn/plugins
+!car-repair-calc/.yarn/releases
+!car-repair-calc/.yarn/versions
+
+# testing
+car-repair-calc/coverage
+
+# next.js
+car-repair-calc/.next/
+car-repair-calc/out/
+
+# production
+car-repair-calc/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+car-repair-calc/.env*
+
+# vercel
+car-repair-calc/.vercel
+
+# typescript
+car-repair-calc/*.tsbuildinfo
+car-repair-calc/next-env.d.ts

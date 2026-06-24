@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="320" fill="#f0f9ff"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">修理期間中の「代車」が起こすミスマッチ</text>
+
+  <rect x="60" y="65" width="300" height="190" rx="20" fill="#bae6fd" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="210" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#0c4a6e">わが家(5人家族)</text>
+  <circle cx="120" cy="140" r="14" fill="#0369a1"/>
+  <circle cx="155" cy="140" r="14" fill="#0369a1"/>
+  <circle cx="190" cy="140" r="11" fill="#0369a1"/>
+  <circle cx="220" cy="140" r="9" fill="#0369a1"/>
+  <circle cx="245" cy="140" r="9" fill="#0369a1"/>
+  <text x="210" y="175" text-anchor="middle" font-size="12" fill="#075985">親2人+子供3人</text>
+  <text x="210" y="195" text-anchor="middle" font-size="12" fill="#075985">+チャイルドシート</text>
+  <text x="210" y="225" text-anchor="middle" font-size="13" font-weight="bold" fill="#7f1d1d">→5〜7人乗りが必要</text>
+
+  <text x="400" y="160" text-anchor="middle" font-size="28" fill="#94a3b8">≠</text>
+
+  <rect x="440" y="65" width="300" height="190" rx="20" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+  <text x="590" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#7f1d1d">よくある代車</text>
+  <rect x="540" y="120" width="100" height="55" rx="10" fill="#ffffff" stroke="#ef4444" stroke-width="2"/>
+  <text x="590" y="152" text-anchor="middle" font-size="11" fill="#7f1d1d">軽自動車</text>
+  <text x="590" y="195" text-anchor="middle" font-size="12" fill="#7f1d1d">定員4人</text>
+  <text x="590" y="215" text-anchor="middle" font-size="12" fill="#7f1d1d">在庫2〜3台のみ</text>
+  <text x="590" y="235" text-anchor="middle" font-size="11" fill="#7f1d1d">(要事前予約・繁忙期は無し)</text>
+
+  <text x="400" y="290" text-anchor="middle" font-size="13" fill="#475569">修理期間(数日〜1週間)中、家族全員が乗れる代車が確保できないケースがある</text>
+</svg>

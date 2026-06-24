@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="340" fill="#f0fdfa"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c4a6e">プリウス実例5件の修理費用比較(総額・概算)</text>
+
+  <!-- y axis -->
+  <line x1="90" y1="280" x2="750" y2="280" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="90" y1="60" x2="90" y2="280" stroke="#94a3b8" stroke-width="2"/>
+  <text x="70" y="280" text-anchor="end" font-size="10" fill="#64748b">0円</text>
+  <text x="70" y="170" text-anchor="end" font-size="10" fill="#64748b">10万円</text>
+  <text x="70" y="65" text-anchor="end" font-size="10" fill="#64748b">20万円</text>
+  <line x1="90" y1="170" x2="750" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+
+  <rect x="140" y="70" width="70" height="210" rx="10" fill="#7dd3fc" stroke="#0ea5e9"/>
+  <text x="175" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#0c4a6e">約19万円</text>
+  <text x="175" y="300" text-anchor="middle" font-size="11" fill="#334155">ケース1</text>
+  <text x="175" y="314" text-anchor="middle" font-size="9" fill="#64748b">(新品換算/11.5万km)</text>
+
+  <rect x="250" y="135" width="70" height="145" rx="10" fill="#5eead4" stroke="#14b8a6"/>
+  <text x="285" y="130" text-anchor="middle" font-size="11" font-weight="bold" fill="#065f46">132,550円</text>
+  <text x="285" y="300" text-anchor="middle" font-size="11" fill="#334155">ケース2</text>
+  <text x="285" y="314" text-anchor="middle" font-size="9" fill="#64748b">(リビルト)</text>
+
+  <rect x="360" y="222" width="70" height="58" rx="10" fill="#fed7aa" stroke="#fb923c"/>
+  <text x="395" y="217" text-anchor="middle" font-size="11" font-weight="bold" fill="#9a3412">70,000円</text>
+  <text x="395" y="300" text-anchor="middle" font-size="11" fill="#334155">ケース3</text>
+  <text x="395" y="314" text-anchor="middle" font-size="9" fill="#64748b">(配線腐食/7万km)</text>
+
+  <rect x="470" y="150" width="70" height="130" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="5,4"/>
+  <text x="505" y="145" text-anchor="middle" font-size="11" fill="#334155">金額不明</text>
+  <text x="505" y="300" text-anchor="middle" font-size="11" fill="#334155">ケース4</text>
+  <text x="505" y="314" text-anchor="middle" font-size="9" fill="#64748b">(リビルト推定)</text>
+
+  <rect x="580" y="150" width="70" height="130" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="5,4"/>
+  <text x="615" y="145" text-anchor="middle" font-size="11" fill="#334155">金額不明</text>
+  <text x="615" y="300" text-anchor="middle" font-size="11" fill="#334155">ケース5</text>
+  <text x="615" y="314" text-anchor="middle" font-size="9" fill="#64748b">(23.5万km/リビルト)</text>
+
+  <text x="400" y="330" text-anchor="middle" font-size="10" fill="#64748b">※ケース1は新品一式での参考価格。ケース4・5は具体的な総額の記載なし(リビルト採用のため2〜13万円程度と推定)</text>
+</svg>
