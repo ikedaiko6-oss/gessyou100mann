@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
+import SiteFooter from "@/app/components/SiteFooter";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,6 +16,7 @@ const geistMono = Geist_Mono({
 
 const SITE_URL = "https://car-repair-calc.vercel.app";
 const SITE_NAME = "車 修理vs買い替え診断";
+const ADSENSE_CLIENT = "ca-pub-9243706180220503";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -30,6 +33,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "53zGJ3S5Tn5TXdBLxYRwgOhvQoasQyENbQ1NIlsoTCk",
+  },
+  other: {
+    "google-adsense-account": ADSENSE_CLIENT,
   },
   openGraph: {
     type: "website",
@@ -58,7 +64,16 @@ export default function RootLayout({
       lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <SiteFooter />
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }

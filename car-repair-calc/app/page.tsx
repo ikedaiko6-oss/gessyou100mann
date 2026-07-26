@@ -99,9 +99,6 @@ export default function Home() {
 
         <footer className="flex flex-col items-center gap-2 text-center text-xs text-slate-500">
           <p>※本ツールの結果は簡易的な目安です。実際の判断は専門業者の見積もりも参考にしてください。</p>
-          <Link href="/about" className="underline hover:text-slate-700">
-            運営者情報
-          </Link>
         </footer>
       </main>
     </div>
