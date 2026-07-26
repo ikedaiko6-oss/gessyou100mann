@@ -10,6 +10,7 @@ export type ArticleMeta = {
   description: string;
   car: string;
   publishedDate: string;
+  updatedDate?: string;
 };
 
 export type Article = ArticleMeta & {
@@ -35,6 +36,7 @@ export function getArticleBySlug(slug: string): Article | null {
     description: data.description,
     car: data.car,
     publishedDate: data.publishedDate,
+    updatedDate: data.updatedDate,
     content,
   };
 }
@@ -43,12 +45,17 @@ export function getAllArticles(): ArticleMeta[] {
   return getAllSlugs()
     .map((slug) => getArticleBySlug(slug))
     .filter((a): a is Article => a !== null)
-    .map(({ slug, title, description, car, publishedDate }) => ({
+    .map(({ slug, title, description, car, publishedDate, updatedDate }) => ({
       slug,
       title,
       description,
       car,
       publishedDate,
+      updatedDate,
     }))
-    .sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1));
+    .sort((a, b) => {
+      const aDate = a.updatedDate ?? a.publishedDate;
+      const bDate = b.updatedDate ?? b.publishedDate;
+      return aDate < bDate ? 1 : -1;
+    });
 }

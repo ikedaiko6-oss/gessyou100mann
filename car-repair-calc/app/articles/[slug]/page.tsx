@@ -19,6 +19,8 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
+  const modifiedTime = article.updatedDate ?? article.publishedDate;
+
   return {
     title: article.title,
     description: article.description,
@@ -28,6 +30,8 @@ export async function generateMetadata({
       description: article.description,
       url: `/articles/${slug}`,
       type: "article",
+      publishedTime: article.publishedDate,
+      modifiedTime,
     },
     twitter: {
       card: "summary",
@@ -47,6 +51,7 @@ export default async function ArticlePage({
   if (!article) notFound();
 
   const html = await marked.parse(article.content);
+  const modifiedDate = article.updatedDate ?? article.publishedDate;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -54,7 +59,7 @@ export default async function ArticlePage({
     headline: article.title,
     description: article.description,
     datePublished: article.publishedDate,
-    dateModified: article.publishedDate,
+    dateModified: modifiedDate,
     mainEntityOfPage: `${SITE_URL}/articles/${slug}`,
   };
 
@@ -69,14 +74,18 @@ export default async function ArticlePage({
       />
       <main className="mx-auto flex max-w-2xl flex-col gap-8 px-4 py-12 sm:py-16">
         <header className="flex flex-col gap-2">
-          <h1 className="text-2xl font-bold text-sky-900 sm:text-3xl">
+          <h1 className="break-keep text-2xl font-bold text-sky-900 sm:text-3xl">
             {article.title}
           </h1>
           <p className="text-sm text-slate-600">{article.description}</p>
+          <p className="text-xs text-slate-500">
+            公開日: {article.publishedDate}
+            {article.updatedDate ? ` / 更新日: ${article.updatedDate}` : ""}
+          </p>
         </header>
 
         <article
-          className="prose prose-slate prose-headings:text-sky-900 prose-a:text-sky-600 prose-img:rounded-2xl prose-img:shadow-sm prose-img:ring-1 prose-img:ring-sky-100 max-w-none rounded-3xl bg-white p-6 shadow-md shadow-sky-100 ring-1 ring-sky-100"
+          className="prose prose-slate prose-headings:text-sky-900 prose-a:text-sky-600 prose-img:rounded-2xl prose-img:shadow-sm prose-img:ring-1 prose-img:ring-sky-100 max-w-none overflow-x-auto rounded-3xl bg-white p-6 shadow-md shadow-sky-100 ring-1 ring-sky-100"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
         />
