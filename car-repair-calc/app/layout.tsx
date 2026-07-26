@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import SiteFooter from "@/app/components/SiteFooter";
 import "./globals.css";
 
@@ -64,15 +63,16 @@ export default function RootLayout({
       lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        {children}
-        <SiteFooter />
-        <Script
+      <head>
+        <script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
+      </head>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <SiteFooter />
       </body>
     </html>
   );
