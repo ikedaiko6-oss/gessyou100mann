@@ -31,7 +31,10 @@ export const metadata: Metadata = {
     follow: true,
   },
   verification: {
-    google: "53zGJ3S5Tn5TXdBLxYRwgOhvQoasQyENbQ1NIlsoTCk",
+    google: [
+      "53zGJ3S5Tn5TXdBLxYRwgOhvQoasQyENbQ1NIlsoTCk",
+      "BwYCHT9dDEjR4gjpQQFRvR9N5mAC6qT9rZayF56_L6o",
+    ],
   },
   other: {
     "google-adsense-account": ADSENSE_CLIENT,
