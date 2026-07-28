@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 const SITE_URL = "https://car-repair-calc.vercel.app";
 const SITE_NAME = "車 修理vs買い替え診断";
-const ADSENSE_CLIENT = "ca-pub-9243706180220503";
+const ADSENSE_CLIENT = "ca-pub-8063105108959075";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
