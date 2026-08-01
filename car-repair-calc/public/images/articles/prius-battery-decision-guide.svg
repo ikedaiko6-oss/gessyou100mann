@@ -1,13 +1,13 @@
-<svg viewBox="0 0 720 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg viewBox="0 0 720 1160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">30系プリウス 駆動用バッテリーの判断手順</title>
   <desc id="desc">警告灯や症状を確認し、整備工場で診断と見積もりを取ったうえで、修理継続か買い替えかを判断する3段階の図解</desc>
-  <rect width="720" height="1080" rx="32" fill="#f8fafc"/>
+  <rect width="720" height="1160" rx="32" fill="#f8fafc"/>
   <rect x="32" y="32" width="656" height="122" rx="24" fill="#075985"/>
   <text x="68" y="76" font-family="sans-serif" font-size="21" font-weight="700" fill="#bae6fd">30系プリウス</text>
   <text x="68" y="115" font-family="sans-serif" font-size="30" font-weight="700" fill="#ffffff">駆動用バッテリーは</text>
   <text x="68" y="145" font-family="sans-serif" font-size="30" font-weight="700" fill="#ffffff">この順番で判断する</text>
 
-  <rect x="52" y="202" width="616" height="220" rx="24" fill="#ffffff" stroke="#bae6fd" stroke-width="3"/>
+  <rect x="52" y="202" width="616" height="240" rx="24" fill="#ffffff" stroke="#bae6fd" stroke-width="3"/>
   <circle cx="105" cy="255" r="28" fill="#e0f2fe"/>
   <text x="105" y="264" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#0369a1">1</text>
   <text x="152" y="264" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">状態を確認</text>
@@ -18,33 +18,33 @@
   <text x="122" y="381" font-family="sans-serif" font-size="21" fill="#334155">出力低下・異音・におい</text>
   <circle cx="102" cy="412" r="5" fill="#0ea5e9"/>
   <text x="122" y="420" font-family="sans-serif" font-size="21" fill="#334155">いつ、どんな時に起きたか</text>
-  <path d="M360 438 L360 462" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
-  <path d="M344 458 L360 478 L376 458 Z" fill="#0ea5e9"/>
+  <path d="M360 458 L360 482" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M344 478 L360 498 L376 478 Z" fill="#0ea5e9"/>
 
-  <rect x="52" y="498" width="616" height="220" rx="24" fill="#ffffff" stroke="#99f6e4" stroke-width="3"/>
-  <circle cx="105" cy="551" r="28" fill="#ccfbf1"/>
-  <text x="105" y="560" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#0f766e">2</text>
-  <text x="152" y="560" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">診断と見積もり</text>
-  <line x1="84" y1="592" x2="636" y2="592" stroke="#e2e8f0" stroke-width="2"/>
-  <circle cx="102" cy="630" r="5" fill="#14b8a6"/>
-  <text x="122" y="638" font-family="sans-serif" font-size="21" fill="#334155">何が原因と考えられるか</text>
-  <circle cx="102" cy="669" r="5" fill="#14b8a6"/>
-  <text x="122" y="677" font-family="sans-serif" font-size="21" fill="#334155">部品の種類と保証</text>
-  <circle cx="102" cy="708" r="5" fill="#14b8a6"/>
-  <text x="122" y="716" font-family="sans-serif" font-size="21" fill="#334155">工賃・周辺作業を含む総額</text>
-  <path d="M360 734 L360 758" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
-  <path d="M344 754 L360 774 L376 754 Z" fill="#14b8a6"/>
+  <rect x="52" y="518" width="616" height="240" rx="24" fill="#ffffff" stroke="#99f6e4" stroke-width="3"/>
+  <circle cx="105" cy="571" r="28" fill="#ccfbf1"/>
+  <text x="105" y="580" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#0f766e">2</text>
+  <text x="152" y="580" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">診断と見積もり</text>
+  <line x1="84" y1="612" x2="636" y2="612" stroke="#e2e8f0" stroke-width="2"/>
+  <circle cx="102" cy="650" r="5" fill="#14b8a6"/>
+  <text x="122" y="658" font-family="sans-serif" font-size="21" fill="#334155">何が原因と考えられるか</text>
+  <circle cx="102" cy="689" r="5" fill="#14b8a6"/>
+  <text x="122" y="697" font-family="sans-serif" font-size="21" fill="#334155">部品の種類と保証</text>
+  <circle cx="102" cy="728" r="5" fill="#14b8a6"/>
+  <text x="122" y="736" font-family="sans-serif" font-size="21" fill="#334155">工賃・周辺作業を含む総額</text>
+  <path d="M360 774 L360 798" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M344 794 L360 814 L376 794 Z" fill="#14b8a6"/>
 
-  <rect x="52" y="794" width="616" height="220" rx="24" fill="#ffffff" stroke="#fed7aa" stroke-width="3"/>
-  <circle cx="105" cy="847" r="28" fill="#ffedd5"/>
-  <text x="105" y="856" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#c2410c">3</text>
-  <text x="152" y="856" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">次の選択を決める</text>
-  <line x1="84" y1="888" x2="636" y2="888" stroke="#e2e8f0" stroke-width="2"/>
-  <circle cx="102" cy="926" r="5" fill="#f97316"/>
-  <text x="122" y="934" font-family="sans-serif" font-size="21" fill="#334155">修理後、どのくらい乗るか</text>
-  <circle cx="102" cy="965" r="5" fill="#f97316"/>
-  <text x="122" y="973" font-family="sans-serif" font-size="21" fill="#334155">今後の整備予定はあるか</text>
-  <circle cx="102" cy="1004" r="5" fill="#f97316"/>
-  <text x="122" y="1012" font-family="sans-serif" font-size="21" fill="#334155">修理費用と車の状態</text>
-  <text x="360" y="1058" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#075985">年数・走行距離は点検のきっかけ。交換判断は診断後に行う。</text>
+  <rect x="52" y="834" width="616" height="240" rx="24" fill="#ffffff" stroke="#fed7aa" stroke-width="3"/>
+  <circle cx="105" cy="887" r="28" fill="#ffedd5"/>
+  <text x="105" y="896" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#c2410c">3</text>
+  <text x="152" y="896" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">次の選択を決める</text>
+  <line x1="84" y1="928" x2="636" y2="928" stroke="#e2e8f0" stroke-width="2"/>
+  <circle cx="102" cy="966" r="5" fill="#f97316"/>
+  <text x="122" y="974" font-family="sans-serif" font-size="21" fill="#334155">修理後、どのくらい乗るか</text>
+  <circle cx="102" cy="1005" r="5" fill="#f97316"/>
+  <text x="122" y="1013" font-family="sans-serif" font-size="21" fill="#334155">今後の整備予定はあるか</text>
+  <circle cx="102" cy="1044" r="5" fill="#f97316"/>
+  <text x="122" y="1052" font-family="sans-serif" font-size="21" fill="#334155">修理費用と車の状態</text>
+  <text x="360" y="1122" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#075985">年数・走行距離は点検のきっかけ。交換判断は診断後に行う。</text>
 </svg>
