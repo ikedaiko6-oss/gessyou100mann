@@ -1,0 +1,39 @@
+<svg viewBox="0 0 720 1110" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">30系プリウス バッテリー交換の見積もり比較ポイント</title>
+  <desc id="desc">交換費用を比べるときに、部品の種類、保証、工賃と周辺作業、診断の根拠の4項目を確認する図解</desc>
+  <rect width="720" height="1110" rx="32" fill="#f8fafc"/>
+  <rect x="32" y="32" width="656" height="122" rx="24" fill="#0f766e"/>
+  <text x="68" y="77" font-family="sans-serif" font-size="21" font-weight="700" fill="#ccfbf1">見積もり比較</text>
+  <text x="68" y="116" font-family="sans-serif" font-size="30" font-weight="700" fill="#ffffff">交換費用は「総額」</text>
+  <text x="68" y="146" font-family="sans-serif" font-size="30" font-weight="700" fill="#ffffff">だけで決めない</text>
+
+  <rect x="52" y="202" width="616" height="178" rx="24" fill="#ffffff" stroke="#bae6fd" stroke-width="3"/>
+  <circle cx="105" cy="255" r="28" fill="#e0f2fe"/>
+  <text x="105" y="264" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#0369a1">1</text>
+  <text x="152" y="264" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">どの部品を使うか</text>
+  <text x="84" y="316" font-family="sans-serif" font-size="21" fill="#334155">新品・リビルト・中古の別を確認</text>
+  <text x="84" y="351" font-family="sans-serif" font-size="18" fill="#64748b">同じ「交換」でも、条件は同じではない</text>
+
+  <rect x="52" y="412" width="616" height="178" rx="24" fill="#ffffff" stroke="#99f6e4" stroke-width="3"/>
+  <circle cx="105" cy="465" r="28" fill="#ccfbf1"/>
+  <text x="105" y="474" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#0f766e">2</text>
+  <text x="152" y="474" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">保証はどうなっているか</text>
+  <text x="84" y="526" font-family="sans-serif" font-size="21" fill="#334155">保証期間と対象範囲を確認</text>
+  <text x="84" y="561" font-family="sans-serif" font-size="18" fill="#64748b">交換後の不具合に、何が含まれるかを聞く</text>
+
+  <rect x="52" y="622" width="616" height="178" rx="24" fill="#ffffff" stroke="#fed7aa" stroke-width="3"/>
+  <circle cx="105" cy="675" r="28" fill="#ffedd5"/>
+  <text x="105" y="684" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#c2410c">3</text>
+  <text x="152" y="684" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">総額に何が入っているか</text>
+  <text x="84" y="736" font-family="sans-serif" font-size="21" fill="#334155">部品代・工賃・周辺作業を確認</text>
+  <text x="84" y="771" font-family="sans-serif" font-size="18" fill="#64748b">一見安くても、作業範囲が違うことがある</text>
+
+  <rect x="52" y="832" width="616" height="178" rx="24" fill="#ffffff" stroke="#ddd6fe" stroke-width="3"/>
+  <circle cx="105" cy="885" r="28" fill="#ede9fe"/>
+  <text x="105" y="894" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#6d28d9">4</text>
+  <text x="152" y="894" font-family="sans-serif" font-size="27" font-weight="700" fill="#0f172a">なぜ交換が必要なのか</text>
+  <text x="84" y="946" font-family="sans-serif" font-size="21" fill="#334155">診断で確認された根拠を聞く</text>
+  <text x="84" y="981" font-family="sans-serif" font-size="18" fill="#64748b">原因がバッテリー以外の可能性も確認する</text>
+
+  <text x="360" y="1065" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#0f766e">比べるのは、金額ではなく作業内容・保証・診断の根拠</text>
+</svg>
