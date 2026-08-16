@@ -4,6 +4,12 @@ import matter from "gray-matter";
 
 const ARTICLES_DIR = path.join(process.cwd(), "content/articles");
 
+// 審査中は、出典・更新日・安全上の注意を見直した記事だけを公開する。
+const PUBLISHED_ARTICLE_SLUGS = new Set([
+  "prius30-hv-battery-life",
+  "rebuilt-vs-new-hv-battery",
+]);
+
 export type ArticleMeta = {
   slug: string;
   title: string;
@@ -22,10 +28,12 @@ export function getAllSlugs(): string[] {
   return fs
     .readdirSync(ARTICLES_DIR)
     .filter((f) => f.endsWith(".md"))
-    .map((f) => f.replace(/\.md$/, ""));
+    .map((f) => f.replace(/\.md$/, ""))
+    .filter((slug) => PUBLISHED_ARTICLE_SLUGS.has(slug));
 }
 
 export function getArticleBySlug(slug: string): Article | null {
+  if (!PUBLISHED_ARTICLE_SLUGS.has(slug)) return null;
   const filePath = path.join(ARTICLES_DIR, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf-8");

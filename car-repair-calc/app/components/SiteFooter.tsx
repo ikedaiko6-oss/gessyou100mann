@@ -10,6 +10,9 @@ export default function SiteFooter() {
         <Link href="/privacy" className="underline hover:text-slate-700">
           プライバシーポリシー
         </Link>
+        <Link href="/editorial-policy" className="underline hover:text-slate-700">
+          編集方針
+        </Link>
       </div>
     </footer>
   );

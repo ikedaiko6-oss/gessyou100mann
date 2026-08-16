@@ -3,12 +3,6 @@
 import { useState } from "react";
 import { judge, type JudgeResult } from "../lib/judge";
 
-// TODO: 整備工場比較側の提携が承認されたら実際のアフィリエイトリンクに置き換える
-const AFFILIATE_LINKS = {
-  tradeIn: "https://px.a8.net/svt/ejp?a8mat=4B614L+5HNXMA+3O80+5Z6WX",
-  repairShop: "#",
-};
-
 export default function RepairOrReplaceCalculator() {
   const [mileage, setMileage] = useState("");
   const [repairCost, setRepairCost] = useState("");
@@ -53,7 +47,7 @@ export default function RepairOrReplaceCalculator() {
           type="submit"
           className="mt-2 rounded-full bg-sky-500 px-4 py-3 font-medium text-white shadow-sm transition-colors hover:bg-sky-400"
         >
-          診断する
+          比較ポイントを整理する
         </button>
       </form>
 
@@ -92,51 +86,25 @@ function Field({
 }
 
 function ResultView({ result }: { result: JudgeResult }) {
-  const isReplace = result.recommendation === "replace";
-
   return (
     <div className="flex flex-col gap-4 rounded-2xl border border-sky-100 bg-sky-50/60 p-4">
       <div className="flex flex-col gap-1">
-        <span className="text-xs text-slate-500">診断結果</span>
-        <span
-          className={`text-xl font-bold ${isReplace ? "text-amber-500" : "text-teal-600"}`}
-        >
-          {isReplace ? "買い替えがおすすめです" : "まだ修理して乗り続けて大丈夫です"}
-        </span>
+        <span className="text-xs text-slate-500">比較のための確認項目</span>
+        <span className="text-xl font-bold text-sky-900">見積もりの中身を確認してから判断</span>
       </div>
 
-      <div className="text-sm text-slate-600">
-        想定残り使用年数: 約{result.remainingYearsEstimate}年 / 年あたりの修理コスト換算:
-        約{Math.round(result.annualizedRepairCostYen).toLocaleString()}円
-      </div>
+      <ul className="flex flex-col gap-2 text-sm leading-6 text-slate-700">
+        {result.comparisonPoints.map((point, i) => (
+          <li key={i} className="flex gap-2">
+            <span className="font-bold text-sky-600">{i + 1}.</span>
+            <span>{point}</span>
+          </li>
+        ))}
+      </ul>
 
-      {result.warnings.length > 0 && (
-        <ul className="flex flex-col gap-1 text-sm text-amber-600">
-          {result.warnings.map((w, i) => (
-            <li key={i}>⚠️ {w}</li>
-          ))}
-        </ul>
-      )}
-
-      {isReplace ? (
-        <a
-          href={AFFILIATE_LINKS.tradeIn}
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          className="rounded-full bg-amber-400 px-4 py-3 text-center font-medium text-white shadow-sm transition-colors hover:bg-amber-300"
-        >
-          無料で一括査定して今の車の価値を調べる
-        </a>
-      ) : (
-        <a
-          href={AFFILIATE_LINKS.repairShop}
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          className="rounded-full bg-teal-500 px-4 py-3 text-center font-medium text-white shadow-sm transition-colors hover:bg-teal-400"
-        >
-          近くの整備工場の見積もりを比較する
-        </a>
-      )}
+      <p className="text-xs leading-5 text-slate-500">
+        このツールは修理または買い替えを推奨・保証するものではありません。走行に支障がある症状や警告灯がある場合は、運転を控えて整備事業者へ相談してください。
+      </p>
     </div>
   );
 }

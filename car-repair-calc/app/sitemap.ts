@@ -14,12 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${SITE_URL}/estima-hybrid`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
       url: `${SITE_URL}/articles`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -34,6 +28,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${SITE_URL}/privacy`,
       lastModified: new Date("2026-07-26"),
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${SITE_URL}/editorial-policy`,
+      lastModified: new Date("2026-08-16"),
       changeFrequency: "yearly",
       priority: 0.2,
     },

@@ -63,7 +63,7 @@ export default function Home() {
             まずは車種別の解説記事をチェック
           </h2>
           <p className="text-sm text-slate-600">
-            実際に起きた故障・修理費用の実例、自分でできる自己診断方法をまとめています。診断ツールはこの後にあります。
+            車種ごとに、公開資料・見積書で確認したい項目・安全上の注意を整理しています。診断ツールはこの後にあります。
           </p>
           <ul className="flex flex-col gap-3">
             {articles.map((a) => (
@@ -92,7 +92,7 @@ export default function Home() {
             原因や費用感がだいたい分かったら、診断ツールへ
           </h2>
           <p className="text-sm text-slate-600">
-            年式・走行距離・修理見積もり額を入力するだけで、修理を続けるべきか買い替えるべきかの目安が分かります。
+            走行距離・修理見積もり額・下取り想定額を入力し、修理と買い替えを比べる前に確認したい項目を整理します。
           </p>
           <RepairOrReplaceCalculator />
         </section>
