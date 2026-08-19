@@ -28,9 +28,8 @@ const jsonLd = {
 
 const FEATURED_SLUGS = [
   "prius30-hv-battery-life",
-  "aqua-hv-failure-points",
+  "hybrid-inverter-failure-guide",
   "rebuilt-vs-new-hv-battery",
-  "alphard-vellfire-hv-inverter",
 ];
 
 export default function Home() {

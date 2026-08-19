@@ -7,6 +7,7 @@ const ARTICLES_DIR = path.join(process.cwd(), "content/articles");
 // 審査中は、出典・更新日・安全上の注意を見直した記事だけを公開する。
 const PUBLISHED_ARTICLE_SLUGS = new Set([
   "prius30-hv-battery-life",
+  "hybrid-inverter-failure-guide",
   "rebuilt-vs-new-hv-battery",
 ]);
 
